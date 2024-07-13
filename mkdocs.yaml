@@ -1,0 +1,97 @@
+# Project information
+site_name: Study Effective Java
+site_url: https://study-book-org.github.io/effective-java
+edit_uri: tree/main/docs/
+site_author: ndy # maintainer
+site_description: >-
+  Study Effective Java with 
+  ndy, ...
+
+# Repository
+repo_name: study-book-org/effective-java
+repo_url: https://github.com/study-book-org/effective-java
+
+
+theme:
+  name: 'material'
+  font:
+    text: Roboto
+    code: Roboto Mono
+  custom_dir: resources/material/overrides
+  features:
+    - content.code.copy
+    - content.action.view
+    - navigation.footer
+    - navigation.tabs
+    - navigation.expand
+    - content.code.annotate
+  admonition:
+    note: octicons/tag-16
+    abstract: octicons/checklist-16
+    info: octicons/info-16
+    tip: octicons/squirrel-16
+    success: octicons/check-16
+    question: octicons/question-16
+    warning: octicons/alert-16
+    failure: octicons/x-circle-16
+    danger: octicons/zap-16
+    bug: octicons/bug-16
+    example: octicons/beaker-16
+    quote: octicons/quote-16
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - md_in_html
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - resources/material/overrides/.icons
+  - toc:
+      permalink: true
+
+plugins:
+  - obsidian-support
+  - search
+  - awesome-pages
+  - glightbox
+  - git-revision-date-localized:
+      type: date
+      timezone: Asia/Seoul
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - exclude:
+      glob:
+        - "*/excalidraws/*.md"
