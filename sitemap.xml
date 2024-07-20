@@ -26,12 +26,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://study-book-org.github.io/effective-java/chapter02/item04/sudong/</loc>
+         <lastmod>2024-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://study-book-org.github.io/effective-java/chapter02/item05/ndy/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://study-book-org.github.io/effective-java/chapter02/item05/sudong/</loc>
+         <lastmod>2024-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://study-book-org.github.io/effective-java/chapter02/item06/ndy/</loc>
+         <lastmod>2024-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://study-book-org.github.io/effective-java/chapter02/item06/sudong/</loc>
          <lastmod>2024-07-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
