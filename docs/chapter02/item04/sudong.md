@@ -1,3 +1,6 @@
+---
+title: echo
+---
 # 04 인스턴스화를 막으려거든, private 생성자를 사용하라.
 정적 메서드와 정적 필드만 모아놓은 클래스를 만들 때가 있다.
 `java.lang.Math`, `java.util.Arrays`, `java.util.Collections` 등이 대표적이다.

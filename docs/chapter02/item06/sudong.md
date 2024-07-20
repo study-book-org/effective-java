@@ -1,3 +1,6 @@
+---
+title: echo
+---
 # 06 불필요한 객체 생성을 피해라
 ```java
 String s = new String("hi");
