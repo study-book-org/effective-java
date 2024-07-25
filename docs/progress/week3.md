@@ -8,9 +8,9 @@ comments: true
 - 일시: 2024-07-28 10:00 ~ 11:00
 - 인원: ndy2, smj, echo, joon
 
-## 토의 내용
+## 추가 자료
 
-- TODO
+-  Baeldung > [Guide to WeakHashMap in Java](https://www.baeldung.com/java-weakhashmap)
 ## 공유
 
 | Item                                           | ndy | smj | echo | joon |
