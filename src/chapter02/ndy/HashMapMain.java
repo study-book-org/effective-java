@@ -1,13 +1,13 @@
 package chapter02.ndy;
 
-import java.util.WeakHashMap;
+import java.util.HashMap;
 
-public class WeekHashMapMain {
+public class HashMapMain {
 
     record MyRecode(String a){}
 
     public static void main(String[] args) throws InterruptedException {
-        WeakHashMap<Integer, MyRecode> map = new WeakHashMap<>();
+        HashMap<Integer, MyRecode> map = new HashMap<>();
         Integer key1 = 1000;
         Integer key2 = 2000;
 
