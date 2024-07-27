@@ -12,13 +12,13 @@
         <meta name="author" content="ndy">
       
       
-        <link rel="canonical" href="https://study-book-org.github.io/effective-java/chapter02/item08/ndy/">
+        <link rel="canonical" href="https://study-book-org.github.io/effective-java/chapter02/item08/echo/">
       
       
-        <link rel="prev" href="../echo/">
+        <link rel="prev" href="../../item07/ndy/">
       
       
-        <link rel="next" href="../../item09/echo/">
+        <link rel="next" href="../ndy/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>ndy - Study Effective Java</title>
+        <title>echo - Study Effective Java</title>
       
     
     
@@ -87,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#8-finalizer-cleaner" class="md-skip">
+        <a href="#finalizer-cleaner" class="md-skip">
           Skip to content
         </a>
       
@@ -121,7 +121,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ndy
+              echo
             
           </span>
         </div>
@@ -1081,27 +1081,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../echo/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    echo
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -1114,7 +1093,104 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    echo
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    echo
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      언제 수행 될 지 예측할 수 없다.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      효율이 낮다. 시간이 오래 걸린다.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finalizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      finalizer 보안 공격에 노출된다.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      대안&gt;?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      그렇다면 적절한 용도
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1123,7 +1199,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1254,6 +1329,59 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      언제 수행 될 지 예측할 수 없다.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      효율이 낮다. 시간이 오래 걸린다.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finalizer" class="md-nav__link">
+    <span class="md-ellipsis">
+      finalizer 보안 공격에 노출된다.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      대안&gt;?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      그렇다면 적절한 용도
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1271,15 +1399,31 @@
     
       
     
-    <a href="https://github.com/study-book-org/effective-java/tree/main/docs/chapter02/item08/ndy.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/study-book-org/effective-java/tree/main/docs/chapter02/item08/echo.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-<h1 id="8-finalizer-cleaner">아이템 8. finalizer와 cleaner 사용을 피하라<a class="headerlink" href="#8-finalizer-cleaner" title="Permanent link">&para;</a></h1>
-<p>TODO</p>
+<h1 id="finalizer-cleaner">finalizer와 cleaner의 사용을 피해라<a class="headerlink" href="#finalizer-cleaner" title="Permanent link">&para;</a></h1>
+<p>자바는 두가지 객체 소멸자를 제공한다. 그 중 finalizer는 예측할 수 없고, 상황에 따라 위험할 수 있어 일반적인 사용은 피해야한다.
+그래서 자바 9에서는 cleaner를 대체제로 제공하지만 이 또한 불필요하다. </p>
+<h3 id="_1">언제 수행 될 지 예측할 수 없다.<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<p>이들은 즉시 수행된다는 보장이 없다.</p>
+<p>시스템이 동시에 열 수 있는 파일 갯수는 한계가 있는데, 파일 닫기를 finalizer나 cleaner에게 맡긴다면 오류를 낼 수 있다.</p>
+<p>이것의 실행은 GC 알고리즘에 달렸다. finalizer 스레드는 다른 애플리케이션 스레드보다 우선순위가 낮아서 OutOfMemoryError를 발생시킬 수 있다.</p>
+<p>상태를 영구적으로 수정하는 작업에서는 절대 finalizer, cleaner에 의존해서는 안된다.</p>
+<p>예를 들어서 데이터베이스 같은 공유자원의 영구 락 해제를 finalizer나 cleaner에 맡겨 놓으면 분산 시스템 전체가 서서히 멈춰설 것이다.</p>
+<p>System.runFinalizersOnExit, Runtime.runFinalizersOnExit이 확실하게 실행을 보장해주지만, 다른 에러가 있다.</p>
+<h3 id="_2">효율이 낮다. 시간이 오래 걸린다.<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<h3 id="finalizer">finalizer 보안 공격에 노출된다.<a class="headerlink" href="#finalizer" title="Permanent link">&para;</a></h3>
+<h2 id="_3">대안&gt;?<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>AutoCloseable을 구현해주면된다. 그리고 클라이언트에서 인스턴스를 다 쓰고 나면 close 메서드를 호출하면 된다.(일반적으로 예외가 터져도 잘 호출될 수 있도록 try-catch-resources을 사용한다.)</p>
+<h2 id="_4">그렇다면 적절한 용도<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>자원의 사용자가 close 메서드를 호출하지 않을 것에 대비한 안정망 역할</p>
+<p>네이티브 피어와 연결된 객체에서 사용한다.
+네이티브 피어 &gt; 일반 객체가 네이티브 메서드를 통해 기능을 위임한 네이티브 객체를 말한다. ???</p>
 
 
 
@@ -1302,7 +1446,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 25, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 27, 2024</span>
   </span>
 
     
@@ -1312,7 +1456,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 25, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 27, 2024</span>
   </span>
 
     
@@ -1341,7 +1485,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../echo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: echo">
+          <a href="../../item07/ndy/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ndy">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1351,20 +1495,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                echo
+                ndy
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../item09/echo/" class="md-footer__link md-footer__link--next" aria-label="Next: echo">
+          <a href="../ndy/" class="md-footer__link md-footer__link--next" aria-label="Next: ndy">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                echo
+                ndy
               </div>
             </div>
             <div class="md-footer__button md-icon">
