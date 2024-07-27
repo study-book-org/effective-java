@@ -23,7 +23,7 @@ public static Boolean valueOf(boolean b) {
 
 ### 1. 생성자와 달리, **이름을 가질 수 있다.**
 
-생성자의 파라미터만으로 생성자의 역할을 드러낼 수 없는 경우가 많다.
+생성자의 파라미터만으로 생성자의 역할을 드러낼 수 없는 경우가 많다.
 
 `BigInteger.probablePrime` 메서드는 Java의 `BigInteger` 클래스에서 사용 가능한 정적 메서드로, 지정된 비트 길이의 소수를 무작위로 생성함`
 
