@@ -1,12 +1,12 @@
 ---
 comments: true
 ---
-# 2주차 - Item 7 ~ 9
+# 3주차 - Item 7 ~ 9
 
 ## 개요
 
 - 일시: 2024-07-28 10:00 ~ 11:00
-- 인원: ndy2, smj, echo, joon
+- 인원: ndy2, echo, joon
 
 ## 추가 자료
 
