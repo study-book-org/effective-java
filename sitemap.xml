@@ -81,7 +81,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://study-book-org.github.io/effective-java/chapter03/item10/echo/</loc>
+         <lastmod>2024-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://study-book-org.github.io/effective-java/chapter03/item10/ndy/</loc>
+         <lastmod>2024-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://study-book-org.github.io/effective-java/chapter03/item11/echo/</loc>
+         <lastmod>2024-08-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://study-book-org.github.io/effective-java/chapter03/item12/echo/</loc>
          <lastmod>2024-08-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
