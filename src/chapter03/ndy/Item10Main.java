@@ -1,4 +1,4 @@
-package chapter3.ndy;
+package chapter03.ndy;
 
 public class Item10Main {
 

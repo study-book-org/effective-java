@@ -1,6 +1,5 @@
-package chapter3.ndy;
+package chapter03.ndy;
 
-import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
