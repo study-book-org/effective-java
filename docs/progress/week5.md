@@ -18,6 +18,6 @@ comments: true
 
 | Item                          | ndy                                                                                                  | smj | joon |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------- | --- | ---- |
-| 아이템 13. clone 재정의는 주의해서 진행하라  | [🤖](https://chatgpt.com/share/f894fa7d-9643-4e11-aec1-084c20134e10)[📄](../chapter03/item13/ndy.md) |     |      |
-| 아이템 14. Comparable을 구현할지 고려하라 | [🔗](https://www.baeldung.com/java-comparator-comparable)                                            |     |      |
-| 아이템 15. 클래스와 멤버의 접근 권한을 최소화하라 | [🔗](https://lima1016.tistory.com/105?category=998504)                                               |     |      |
+| 아이템 13. clone 재정의는 주의해서 진행하라  | [🤖](https://chatgpt.com/share/f894fa7d-9643-4e11-aec1-084c20134e10)[📄](../chapter03/item13/ndy.md) |     |[🔗](https://wonjoon.gitbook.io/joons-til/books/effective-java/item13.-override-clone-judiciously)      |
+| 아이템 14. Comparable을 구현할지 고려하라 | [🔗](https://www.baeldung.com/java-comparator-comparable)                                            |     |[🔗](https://wonjoon.gitbook.io/joons-til/books/effective-java/item14.-consider-implementing-comparable)      |
+| 아이템 15. 클래스와 멤버의 접근 권한을 최소화하라 | [🔗](https://lima1016.tistory.com/105?category=998504)                                               |     |[🔗](https://wonjoon.gitbook.io/joons-til/books/effective-java/item15.-minimize-the-accessibility-of-classes-and-members)      |
