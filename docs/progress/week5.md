@@ -14,7 +14,8 @@ comments: true
 	- Java Modifiers 수식어(?)의 작성 순서
 	- Annotation 이 중간에 올 수도 있다!
 		- `final private static @Id long ID = 1;`
-- **읽어볼 것)** Josh Bloch on Design, [“Copy Constructor versus Cloning”](https://www.artima.com/articles/josh-bloch-on-design)
+- Josh Bloch on Design, [“Copy Constructor versus Cloning”](https://www.artima.com/articles/josh-bloch-on-design)
+	- clone 메서드 대신 권장하는 방법
 
 ## 공유
 
