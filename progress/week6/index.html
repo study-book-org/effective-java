@@ -12,26 +12,28 @@
         <meta name="author" content="ndy">
       
       
-        <link rel="canonical" href="https://study-book-org.github.io/effective-java/chapter03/item13/ndy/">
+        <link rel="canonical" href="https://study-book-org.github.io/effective-java/progress/week6/">
       
       
-        <link rel="prev" href="../../item12/ndy/">
+        <link rel="prev" href="../week5/">
       
       
+        <link rel="next" href="../../chapter02/item01/ndy/">
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.32">
     
     
       
-        <title>ndy - Study Effective Java</title>
+        <title>6주차 - Item 16 ~ 18 - Study Effective Java</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,14 +52,14 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -66,7 +68,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -85,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#copy-factory" class="md-skip">
+        <a href="#6-item-16-18" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +101,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Study Effective Java" class="md-header__button md-logo" aria-label="Study Effective Java" data-md-component="logo">
+    <a href="../.." title="Study Effective Java" class="md-header__button md-logo" aria-label="Study Effective Java" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -119,7 +121,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ndy
+              6주차 - Item 16 ~ 18
             
           </span>
         </div>
@@ -224,11 +226,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../progress/template/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../template/" class="md-tabs__link">
           
   
   진행 사항
@@ -252,7 +256,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../chapter02/item01/ndy/" class="md-tabs__link">
+        <a href="../../chapter02/item01/ndy/" class="md-tabs__link">
           
   
   2장 객체 생성과 파괴
@@ -269,21 +273,17 @@
         
   
   
-    
-  
   
     
     
       
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../item10/echo/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../chapter03/item10/echo/" class="md-tabs__link">
           
   
   3장 모든 객체의 공통 메서드
@@ -319,7 +319,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Study Effective Java" class="md-nav__button md-logo" aria-label="Study Effective Java" data-md-component="logo">
+    <a href="../.." title="Study Effective Java" class="md-nav__button md-logo" aria-label="Study Effective Java" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -346,25 +346,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
-        
-          
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -375,7 +378,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             진행 사항
@@ -389,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../progress/template/" class="md-nav__link">
+      <a href="../template/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -410,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../progress/week1/" class="md-nav__link">
+      <a href="../week1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -431,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../progress/week2/" class="md-nav__link">
+      <a href="../week2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -452,7 +455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../progress/week3/" class="md-nav__link">
+      <a href="../week3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -473,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../progress/week4/" class="md-nav__link">
+      <a href="../week4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -494,7 +497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../progress/week5/" class="md-nav__link">
+      <a href="../week5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -512,10 +515,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../progress/week6/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    6주차 - Item 16 ~ 18
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -524,6 +547,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      개요
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      추가 자료
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#icons" class="md-nav__link">
+    <span class="md-ellipsis">
+      공유 (icons : 📢 📄 🔗)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -623,7 +693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item01/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item01/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -692,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item02/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item02/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -761,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item03/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item03/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -830,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item04/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item04/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -851,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item04/sudong/" class="md-nav__link">
+      <a href="../../chapter02/item04/sudong/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -920,7 +990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item05/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item05/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -941,7 +1011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item05/sudong/" class="md-nav__link">
+      <a href="../../chapter02/item05/sudong/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1010,7 +1080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item06/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item06/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1031,7 +1101,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item06/sudong/" class="md-nav__link">
+      <a href="../../chapter02/item06/sudong/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1100,7 +1170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item07/echo/" class="md-nav__link">
+      <a href="../../chapter02/item07/echo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1121,7 +1191,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item07/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item07/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1190,7 +1260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item08/echo/" class="md-nav__link">
+      <a href="../../chapter02/item08/echo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1211,7 +1281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item08/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item08/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1280,7 +1350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item09/echo/" class="md-nav__link">
+      <a href="../../chapter02/item09/echo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1301,7 +1371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../chapter02/item09/ndy/" class="md-nav__link">
+      <a href="../../chapter02/item09/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1334,28 +1404,25 @@
       
   
   
-    
   
   
-  
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1366,7 +1433,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             3장 모든 객체의 공통 메서드
@@ -1420,7 +1487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../item10/echo/" class="md-nav__link">
+      <a href="../../chapter03/item10/echo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1441,7 +1508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../item10/ndy/" class="md-nav__link">
+      <a href="../../chapter03/item10/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1510,7 +1577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../item11/echo/" class="md-nav__link">
+      <a href="../../chapter03/item11/echo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1579,7 +1646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../item12/echo/" class="md-nav__link">
+      <a href="../../chapter03/item12/echo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1600,7 +1667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../item12/ndy/" class="md-nav__link">
+      <a href="../../chapter03/item12/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1626,8 +1693,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1637,11 +1702,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4" >
         
           
           <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
@@ -1655,7 +1722,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
             Item13
@@ -1666,28 +1733,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    ndy
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../chapter03/item13/ndy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1696,51 +1745,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#copy-factory" class="md-nav__link">
-    <span class="md-ellipsis">
-      Copy Factory 메서드를 사용할때의 안티패턴
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1-fixture" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 테스트 Fixture 생성
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 객체를 조금식 채워나가는 방식으로 작성된 코드
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1778,6 +1782,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1786,27 +1792,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#copy-factory" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Copy Factory 메서드를 사용할때의 안티패턴
+      개요
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#1-fixture" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 테스트 Fixture 생성
+      추가 자료
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#icons" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 객체를 조금식 채워나가는 방식으로 작성된 코드
+      공유 (icons : 📢 📄 🔗)
     </span>
   </a>
   
@@ -1831,125 +1837,51 @@
     
       
     
-    <a href="https://github.com/study-book-org/effective-java/tree/main/docs/chapter03/item13/ndy.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/study-book-org/effective-java/tree/main/docs/progress/week6.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-  <h1>ndy</h1>
-
-<h2 id="copy-factory">Copy Factory 메서드를 사용할때의 안티패턴<a class="headerlink" href="#copy-factory" title="Permanent link">&para;</a></h2>
-<p>Item 13 은 아래의 결론으로 마무리 된다.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>A better approach to object copying is to provide a copy constructor or copy factory
-</span></code></pre></div>
-<p>하지만 팀내 여러 영역에서 Copy Factory Method 를 활용하여 개발에 활용하는데 별로 좋지 않은것 같다.</p>
-<h2 id="1-fixture">1. 테스트 Fixture 생성<a class="headerlink" href="#1-fixture" title="Permanent link">&para;</a></h2>
-<div class="language-java highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">public</span><span class="w"> </span><span class="n">Fixtures</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">Person</span><span class="w"> </span><span class="n">samplePerson</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;ndy&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">age</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="p">...)</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nd">@Test</span><span class="w"> </span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="kt">void</span><span class="w"> </span><span class="nf">some_test_with_person</span><span class="p">(){</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="c1">// given</span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="n">Person</span><span class="w"> </span><span class="n">personAge20</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">samplePerson</span><span class="p">.</span><span class="na">copy</span><span class="p">(</span><span class="n">age</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span><span class="p">)</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="c1">// when</span>
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="c1">// then</span>
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="p">}</span>
-</span></code></pre></div>
+<h1 id="6-item-16-18">6주차 - Item 16 ~ 18<a class="headerlink" href="#6-item-16-18" title="Permanent link">&para;</a></h1>
+<h2 id="_1">개요<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>copy</code>, <code>clone</code> 라는 이름은 해당 객체를 왜 생성하는지 의미를 드러내지 못한다.</li>
-<li>뭔가 뭔가 읽었을때 흐름이 이상하다.<ul>
-<li>나이가 20 살인 사람을 생성하는데 왜 samplePerson 을 복사하지?</li>
-<li>samplePerson 의 다른 필드는 어떻게 채워지는 거지?</li>
+<li>일시: 2024-08-25 10:00 ~ </li>
+<li>인원: ndy, smj, joon</li>
 </ul>
-</li>
-</ul>
-<p><div class="language-java highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">public</span><span class="w"> </span><span class="n">Fixtures</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="nf">createPerson</span><span class="p">(</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;ndy&quot;</span><span class="p">,</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">age</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="w"> </span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">age</span><span class="p">)</span>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="p">}</span>
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="nd">@Test</span><span class="w"> </span>
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="kt">void</span><span class="w"> </span><span class="nf">some_test_with_person</span><span class="p">(){</span>
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">    </span><span class="c1">// given</span>
-</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="n">Person</span><span class="w"> </span><span class="n">personAge20</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">createPerson</span><span class="p">(</span><span class="n">age</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span><span class="p">)</span>
-</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
-</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">    </span><span class="c1">// when</span>
-</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">    </span><span class="c1">// then</span>
-</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="p">}</span>
-</span></code></pre></div>
-- 그나마 이게 더 낫다고 생각함.  samplePerson 의 다른 필드는 어떻게 채워지는 거지? 에 대한 의문은 여전히 있음. 하지만 그 필드에 대한 검증을 안 하면 됨</p>
-<h2 id="2">2. 객체를 조금식 채워나가는 방식으로 작성된 코드<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
-<div class="language-java highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">static</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Response</span><span class="p">{</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">a</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">b</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="p">}</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="kd">static</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ServiceA</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="n">Response</span><span class="w"> </span><span class="nf">callA</span><span class="p">(</span><span class="n">response</span><span class="p">:</span><span class="w"> </span><span class="n">Response</span><span class="p">)</span><span class="w"> </span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="p">}</span>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="kd">static</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ServiceB</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="n">Response</span><span class="w"> </span><span class="nf">callB</span><span class="p">(</span><span class="n">response</span><span class="p">:</span><span class="w"> </span><span class="n">Response</span><span class="p">)</span><span class="w"> </span>
-</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="p">}</span>
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>
-</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="kd">public</span><span class="w"> </span><span class="n">HelloController</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">    </span><span class="n">ServiceA</span><span class="w"> </span><span class="n">serviceA</span><span class="p">;</span>
-</span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="w">    </span><span class="n">ServiceB</span><span class="w"> </span><span class="n">serviceB</span><span class="p">;</span>
-</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>
-</span><span id="__span-3-18"><a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="w">    </span><span class="n">Response</span><span class="w"> </span><span class="nf">hello</span><span class="p">(){</span>
-</span><span id="__span-3-19"><a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">        </span><span class="c1">// </span>
-</span><span id="__span-3-20"><a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>
-</span><span id="__span-3-21"><a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="w">        </span><span class="n">Response</span><span class="w"> </span><span class="n">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Response</span><span class="p">();</span>
-</span><span id="__span-3-22"><a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="w">        </span><span class="n">Response</span><span class="w"> </span><span class="n">responseA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serviceA</span><span class="p">.</span><span class="na">call</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
-</span><span id="__span-3-23"><a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">        </span><span class="n">Response</span><span class="w"> </span><span class="n">responseB</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serviceB</span><span class="p">.</span><span class="na">call</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
-</span><span id="__span-3-24"><a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>
-</span><span id="__span-3-25"><a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="w">        </span><span class="n">response</span><span class="p">.</span><span class="na">copy</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">responseA</span><span class="p">.</span><span class="na">a</span><span class="p">)</span>
-</span><span id="__span-3-26"><a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a><span class="w">        </span><span class="n">response</span><span class="p">.</span><span class="na">copy</span><span class="p">(</span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">responseA</span><span class="p">.</span><span class="na">b</span><span class="p">)</span>
-</span><span id="__span-3-27"><a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">response</span>
-</span><span id="__span-3-28"><a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-3-29"><a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a><span class="p">}</span>
-</span></code></pre></div>
-<ul>
-<li>왜 Response 를 받아서 Response 를 반환하는 거지?</li>
-<li>ServiceA 와 ServiceB 에서는 각각 어떤 필드가 채워지는 거지?</li>
-<li>이걸 어떻게 읽으라고... 세상이 밉다.</li>
-</ul>
-<div class="language-java highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">static</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Response</span><span class="p">{</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">a</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">b</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">}</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="kd">static</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ServiceA</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="nf">callA</span><span class="p">(</span><span class="n">someRequiredFiledsForCallA</span><span class="w"> </span><span class="p">...)</span><span class="w"> </span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="p">}</span>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="kd">static</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ServiceB</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="nf">callB</span><span class="p">(</span><span class="n">someRequiredFiledsForCallB</span><span class="w"> </span><span class="p">...)</span><span class="w"> </span>
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="p">}</span>
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>
-</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="kd">public</span><span class="w"> </span><span class="n">HelloController</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">    </span><span class="n">ServiceA</span><span class="w"> </span><span class="n">serviceA</span><span class="p">;</span>
-</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">    </span><span class="n">ServiceB</span><span class="w"> </span><span class="n">serviceB</span><span class="p">;</span>
-</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>
-</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="w">    </span><span class="n">Response</span><span class="w"> </span><span class="nf">hello</span><span class="p">(){</span>
-</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="w">        </span><span class="c1">// </span>
-</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>
-</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serviceA</span><span class="p">.</span><span class="na">call</span><span class="p">(...)</span>
-</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">serviceB</span><span class="p">.</span><span class="na">call</span><span class="p">(...)</span>
-</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a>
-</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Response</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span>
-</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a><span class="p">}</span>
-</span></code></pre></div>
-<p>각 인터페이스에 맞는 파라미터와 반환타입을 정의하자. clone 을 남용하지 말자.</p>
+<h2 id="_2">추가 자료<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="icons">공유 (icons : 📢 📄 🔗)<a class="headerlink" href="#icons" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>ndy</th>
+<th>smj</th>
+<th>joon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>아이템 16.</td>
+<td><a href="">📄</a></td>
+<td><a href="">📄</a></td>
+<td><a href="https://wonjoon.gitbook.io/joons-til/books/effective-java/item-16.-accessor-methods-over-public-fields">📄</a></td>
+</tr>
+<tr>
+<td>아이템 17.</td>
+<td><a href="">📄</a></td>
+<td><a href="">📄</a></td>
+<td><a href="https://wonjoon.gitbook.io/joons-til/books/effective-java/item17.-minimize-mutability">📄</a></td>
+</tr>
+<tr>
+<td>아이템 18.</td>
+<td><a href="">📄</a></td>
+<td><a href="">📄</a></td>
+<td><a href="https://wonjoon.gitbook.io/joons-til/books/effective-java/item18.-composition-over-inherentance">📄</a></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1972,7 +1904,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 16, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 21, 2024</span>
   </span>
 
     
@@ -1982,7 +1914,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 16, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 21, 2024</span>
   </span>
 
     
@@ -1993,6 +1925,53 @@
 
 
 
+
+<h2 id="__comments">Comments</h2>
+<!-- Insert generated snippet here -->
+<script src="https://giscus.app/client.js"
+        data-repo="study-book-org/effective-java"
+        data-repo-id="R_kgDOMV1LSw"
+        data-category="General"
+        data-category-id="DIC_kwDOMV1LS84CgxAF"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="ko"
+        crossorigin="anonymous"
+        async>
+</script>
+<!-- Synchronize Giscus theme with palette -->
+<script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate" ? "dark" : "light"
+        giscus.setAttribute("data-theme", theme)
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+        var ref = document.querySelector("[data-md-component=palette]")
+        ref.addEventListener("change", function() {
+            var palette = __md_get("__palette")
+            if (palette && typeof palette.color === "object") {
+                var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+                /* Instruct Giscus to change theme */
+                var frame = document.querySelector(".giscus-frame")
+                frame.contentWindow.postMessage(
+                    { giscus: { setConfig: { theme } } },
+                    "https://giscus.app"
+                )
+            }
+        })
+    })
+</script>
 
                 
               </article>
@@ -2011,7 +1990,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../item12/ndy/" class="md-footer__link md-footer__link--prev" aria-label="Previous: ndy">
+          <a href="../week5/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 5주차 - Item 13 ~ 15">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2021,11 +2000,27 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                ndy
+                5주차 - Item 13 ~ 15
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../../chapter02/item01/ndy/" class="md-footer__link md-footer__link--next" aria-label="Next: ndy">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                ndy
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
@@ -2052,10 +2047,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.action.view", "navigation.footer", "navigation.tabs", "navigation.expand", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.view", "navigation.footer", "navigation.tabs", "navigation.expand", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.471ce7a9.min.js"></script>
+      <script src="../../assets/javascripts/bundle.471ce7a9.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
