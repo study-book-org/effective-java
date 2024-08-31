@@ -9,7 +9,7 @@ comments: true
 - 인원: ndy, smj, joon, minkuk-kim, wch-os
 
 ## 추가 자료
-- [
+- 
 ## 공유
 %% 
 📢 : 발표한 사람
