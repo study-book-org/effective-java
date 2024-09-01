@@ -40,6 +40,13 @@ Effective Java 를 읽고 학습한 내용 및 관련된 자료 (직접 정리�
 	- 분량 및 중요도에 따라 보통 2 ~ 4 Item 을 진행합니다.
 
 ## 진행 사항
+%% 
+[ndy2](https://github.com/ndy2/)
+[724thomas](https://github.com/orgs/study-book-org/people/724thomas)
+[minkuk-kim](https://github.com/orgs/study-book-org/people/minkuk-kim)
+[Shinminjin](https://github.com/orgs/study-book-org/people/Shinminjin)
+[wch-os](https://github.com/orgs/study-book-org/people/wch-os) 
+%%
 
 | 주차  | 날짜         | 진행 Items | 정리                      | 상태  |
 | --- | ---------- | -------- | ----------------------- | --- |
