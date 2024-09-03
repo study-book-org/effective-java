@@ -39,14 +39,15 @@ Effective Java 를 읽고 학습한 내용 및 관련된 자료 (직접 정리�
 - 다음 주차에 진행할 아이템을 선정합니다.
 	- 분량 및 중요도에 따라 보통 2 ~ 4 Item 을 진행합니다.
 
+## 참여 인원
+
+- [ndy2](https://github.com/ndy2/)
+- [Shinminjin](https://github.com/Shinminjin)
+- [724thomas](https://github.com/724thomas)
+- [minkuk-kim](https://github.com/minkuk-kim)
+- [wch-os](https://github.com/wch-os) 
+
 ## 진행 사항
-%% 
-[ndy2](https://github.com/ndy2/)
-[724thomas](https://github.com/orgs/study-book-org/people/724thomas)
-[minkuk-kim](https://github.com/orgs/study-book-org/people/minkuk-kim)
-[Shinminjin](https://github.com/orgs/study-book-org/people/Shinminjin)
-[wch-os](https://github.com/orgs/study-book-org/people/wch-os) 
-%%
 
 | 주차  | 날짜         | 진행 Items | 정리                      | 상태  |
 | --- | ---------- | -------- | ----------------------- | --- |
@@ -56,7 +57,8 @@ Effective Java 를 읽고 학습한 내용 및 관련된 자료 (직접 정리�
 | 4   | 2024-08-11 | 10 ~ 12  | [📄](progress/week4.md) | ✅   |
 | 5   | 2024-08-18 | 13 ~ 15  | [📄](progress/week5.md) | ✅   |
 | 6   | 2024-08-25 | 16 ~ 18  | [📄](progress/week6.md) | ✅   |
-| 7   | 2024-09-01 | 19 ~ 21  | [📄](progress/week7.md) | 🔄  |
+| 7   | 2024-09-01 | 19 ~ 21  | [📄](progress/week7.md) | ✅   |
+| 8   | 2024-09-08 | 20 ~ 24  | [📄](progress/week8.md) | 🔄  |
 
 ## 참고
 
