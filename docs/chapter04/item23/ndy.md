@@ -135,3 +135,28 @@ struct SomeApk {
 ```
 
 사실 저런 Gateway 성 외부 Interface 자체가 좋은 방식인지는 의문이다.
+
+
+---
+
+```java
+abstract class BaseIdEntity {
+    abstract int id();
+}
+
+class Circle extends BaseIdEntity {
+    final double radius;
+
+    Circle(double radius) { this.radius = radius; }
+}
+
+class Rectangle extends BaseIdEntity {
+    final double length;
+    final double width;
+
+    Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+}
+```
