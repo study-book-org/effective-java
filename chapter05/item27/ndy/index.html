@@ -2537,6 +2537,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    ndy
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2546,6 +2557,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#javautilarraylist" class="md-nav__link">
+    <span class="md-ellipsis">
+      java.util.ArrayList 의 예시
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2587,6 +2626,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#javautilarraylist" class="md-nav__link">
+    <span class="md-ellipsis">
+      java.util.ArrayList 의 예시
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2612,6 +2668,12 @@
 
 
 <h1 id="item27-eliminate-unchecked-warnings">Item27: Eliminate unchecked warnings<a class="headerlink" href="#item27-eliminate-unchecked-warnings" title="Permanent link">&para;</a></h1>
+<div class="admonition quote">
+<p class="admonition-title">참고자료</p>
+<ul>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/generics/rawTypes.html">oracle &gt; Java Tutorials &gt; Generic &gt; Raw Types &gt; # Unchecked Error Messages</a></li>
+</ul>
+</div>
 <p>Eliminate every <em>unchecked warning</em> that you can.</p>
 <div class="admonition note">
 <p class="admonition-title">unchecked warning</p>
@@ -2619,19 +2681,14 @@
 <li>컴파일러가 타입안정성을 보장할 수 없는 코드에 대해서 발생시키는 경고</li>
 </ul>
 </div>
+<div class="admonition note">
 <ul>
-<li>
-<p>If you can’t eliminate a warning, but you can prove that the code that provoked the warning is typesafe, then (and only then) suppress the warning with an @SuppressWarnings("unchecked") annotation</p>
-</li>
-<li>
-<p>Always use the SuppressWarnings annotation on the smallest scope possible.</p>
-</li>
-<li>
-<p>Every time you use a @SuppressWarnings("unchecked") annotation, add a comment saying why it is safe to do so.</p>
-</li>
+<li>If you can’t eliminate a warning, but you can prove that the code that provoked the warning is typesafe, then (and only then) suppress the warning with an @SuppressWarnings("unchecked") annotation</li>
+<li>Always use the SuppressWarnings annotation on the smallest scope possible.</li>
+<li>Every time you use a @SuppressWarnings("unchecked") annotation, add a comment saying why it is safe to do so.</li>
 </ul>
-<hr />
-<p>java 의 예시</p>
+</div>
+<h2 id="javautilarraylist">java.util.ArrayList 의 예시<a class="headerlink" href="#javautilarraylist" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
 <p><a class="glightbox" href="../images/ndy.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="images/ndy.png" src="../images/ndy.png" /></a></p>
@@ -2641,6 +2698,12 @@
 </li>
 <li>
 <p>https://velog.io/@bedshanty/자바의-ArrayList가-제네릭-타입-E가-아닌-Object를-저장하는-이유</p>
+</li>
+<li>
+<p><a class="glightbox" href="../images/ndy-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="images/ndy-1.png" src="../images/ndy-1.png" /></a></p>
+</li>
+<li>
+<p><a class="glightbox" href="../images/ndy-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="images/ndy-2.png" src="../images/ndy-2.png" /></a></p>
 </li>
 </ul>
 
@@ -2665,7 +2728,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 19, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 21, 2024</span>
   </span>
 
     
