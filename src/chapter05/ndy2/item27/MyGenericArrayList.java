@@ -7,7 +7,6 @@ public class MyGenericArrayList<E> extends AbstractList<E> implements List<E> {
 
     private static final int DEFAULT_CAPACITY = 10;
 
-    /*
     // ERROR
     // 'chapter05.ndy2.item27.MyGenericArrayList.this' cannot be referenced from a static context
     private static final E[] EMPTY_ELEMENTDATA = {};
@@ -20,14 +19,14 @@ public class MyGenericArrayList<E> extends AbstractList<E> implements List<E> {
         if (initialCapacity > 0) {
             // ERROR
             // Type parameter 'E' cannot be instantiated directly
-            this.elementData = new E[initialCapacity];
+            this.elementData = (E[]) new Object[initialCapacity];
         } else if (initialCapacity == 0) {
             this.elementData = EMPTY_ELEMENTDATA;
         } else {
             throw new IllegalArgumentException("Illegal Capacity: "+
                     initialCapacity);
         }
-    }*/
+    }
 
     @Override
     public E get(int index) {
