@@ -5,18 +5,18 @@ comments: true
 
 ## 개요
 
-- 일시: 2024-10-13
-- 인원: ndy2, joon, wch-os, minkuk-kim
+- 일시: -
+- 인원: -
 
 ## 추가 자료
 
--  Joshua Bloch 가 설명해주는 Wildcards - https://youtu.be/V1vQf4qyMXg?t=1347
+-  Joshua Bloch 가 설명해주는 Wildcards 
+	- [Effective Java - Still Effective After All These Years (2/e Item 28)](https://youtu.be/V1vQf4qyMXg?t=1347)
 -  토비가 설명해주는 
-	- Generic - https://youtu.be/ipT2XG1SHtQ
-	- Supertype token - https://youtu.be/01sdXvZSjcI
-		- spring parameterizedtypereference - https://youtu.be/01sdXvZSjcI?t=5916
-	- wildcard type - https://youtu.be/PQ58n0hk7DI
-
+	- [자바 Generics](https://youtu.be/ipT2XG1SHtQ)
+	- [수퍼 타입 토큰](https://youtu.be/01sdXvZSjcI)
+		- [Spring ParameterizedTypeReference](https://youtu.be/01sdXvZSjcI?t=5916)
+	- [Generics에서 와일드카드 활용법, 람다와 인터섹션 타입을 이용한 동적인 기능확장법](https://youtu.be/PQ58n0hk7DI)
 ## 공유
 %% 
 📢 : 발표한 사람
