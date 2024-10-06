@@ -1,7 +1,6 @@
 ---
 comments: true
 ---
-
 # 12주차 - Item 31 ~ 33
 
 ## 개요
