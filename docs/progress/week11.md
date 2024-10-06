@@ -19,8 +19,8 @@ comments: true
 🤖 : ChatGPT XD
 %%
 
-| Item                           | ndy | smj | joon | wch-os | minkuk-kim |
-| ------------------------------ | ---- | ---- | ---- | ---- | ---- |
-| 아이템 28. 배열보다는 리스트를 사용하라    |  | [📄](https://shinminjin.github.io/posts/item28/) |  |  |  |
-| 아이템 29. 이왕이면 제네릭 타입으로 만들라 |  | [📄](https://shinminjin.github.io/posts/item29/) |  |  |  |
-| 아이템 30. 이왕이면 제네릭 메서드로 만들라 |  | [📄](https://shinminjin.github.io/posts/item30/) |  |  |  |
+| Item                      | smj                                              | joon                                                                                                | wch-os | minkuk-kim |
+| ------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------- | ------ | ---------- |
+| 아이템 28. 배열보다는 리스트를 사용하라   | [📄](https://shinminjin.github.io/posts/item28/) | [📄](https://wonjoon.gitbook.io/joons-til/books/effective-java/item28.-use-lists-instead-of-arrays) |        |            |
+| 아이템 29. 이왕이면 제네릭 타입으로 만들라 | [📄](https://shinminjin.github.io/posts/item29/) | [📄](https://wonjoon.gitbook.io/joons-til/books/effective-java/item-29.-prefer-generic-types)       |        |            |
+| 아이템 30. 이왕이면 제네릭 메서드로 만들라 | [📄](https://shinminjin.github.io/posts/item30/) | [📄](https://wonjoon.gitbook.io/joons-til/books/effective-java/item30.-favor-generic-methods)       |        |            |

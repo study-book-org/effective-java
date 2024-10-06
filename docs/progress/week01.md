@@ -1,7 +1,7 @@
 ---
 comments: true
 ---
-# 1주차 - Item 1 ~ 3
+# 01주차 - Item 1 ~ 3
 
 ## 개요
 

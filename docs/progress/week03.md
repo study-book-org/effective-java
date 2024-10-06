@@ -1,7 +1,7 @@
 ---
 comments: true
 ---
-# 3주차 - Item 7 ~ 9
+# 03주차 - Item 7 ~ 9
 
 ## 개요
 

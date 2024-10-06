@@ -1,7 +1,7 @@
 ---
 comments: true
 ---
-# 2주차 - Item 4 ~ 6
+# 02주차 - Item 4 ~ 6
 
 ## 개요
 
