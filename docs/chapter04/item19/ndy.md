@@ -11,7 +11,7 @@ title: ndy
 
 이는 java 8 에 추가된 javadoc tag 인 `@implSpec` 에 작성해야 한다.
 
-![[Pasted image 20240831190912.png]]
+![[images/Pasted image 20240831190912.png]]
 
 1. 호출되는 재정의 가능한 자기사용 메서드 이름  
 2. 호출되는 순서  
@@ -21,7 +21,7 @@ title: ndy
 
 @Implspec 의 트레이드오프
 
-![[tradeoff.excalidraw.png]]
+![[excalidraws/tradeoff.excalidraw.png]]
 
 
 ## 2. 상속을 고려한 클래스 (abstract 클래스, interface 포함) 를 꼭 테스트 해라
