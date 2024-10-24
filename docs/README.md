@@ -72,7 +72,7 @@ Effective Java 를 읽고 학습한 내용 및 관련된 자료 (직접 정리�
 | 11  | 2024-09-29 | 28 ~ 30  | [📄](progress/week11.md) | ✅   |                    | -                             |
 | 12  | 2024-10-06 | -        | -                        | ⏩  | - 인원 부족 (2/5) 스킵 - | -                             |
 | 13  | 2024-10-13 | 31 ~ 35  | - | ⏩  | - 인원 부족 (2/5) 스킵 - | -                             |
-| 14  | 2024-10-20 | 31 ~ 35  | [📄](progress/week13.md) | ✅  |                          | ndy2, smj, minkuk, moon |
+| 14  | 2024-10-20 | 31 ~ 35  | [📄](progress/week14.md) | ✅  |                          | ndy2, smj, minkuk, moon |
 | 15  | 2024-10-20 | 36 ~ 38  | [📄](progress/week15.md) | 🔄  |                          | ndy2, minkuk, moon, joon, smj |
 
 ## 참고
